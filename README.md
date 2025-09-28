@@ -1,54 +1,64 @@
 # Hi, I'm Vrushabh Mudda! 👋
 
-🎓 **AI & Business Analytics Graduate Student** | 🤖 **Machine Learning Enthusiast** | 📊 **Data Science Explorer**
+🎓 **AI & Business Analytics Graduate Student** | 🤖 **Machine Learning Engineer** | 📊 **Data Science Expert**
 
-Currently pursuing MS in AI & Business Analytics while diving deep into NLP, transformers, and cutting-edge machine learning technologies.
+Currently pursuing MS in AI & Business Analytics at USF while building production-scale ML systems and advancing state-of-the-art techniques in computer vision and NLP.
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=vrushabhmudda&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
 
 ## 🚀 About Me
 
-- 🔭 Currently working on **NLP projects using transformers and HuggingFace**
-- 🌱 Exploring **catastrophic forgetting in machine learning** and **LoRA implementations**
-- 💪 Balancing **AI research** with **fitness and nutrition tracking**
-- 🥊 Boxing and MMA enthusiast when not coding
-- 🎯 Seeking **AI/ML internships** and full-time opportunities in the US
+- 🔭 Currently working as **AI Engineer at PromptOps AI Platform** and **Graduate Assistant at Cyber Florida**
+- 🌱 Exploring **production-scale ML systems**, **computer vision**, and **NLP applications**
+- 💪 **3+ years experience** developing ML systems at Fortune 500 companies
+- 🎯 Achieved **95% precision** in spam detection and **90% accuracy** in emotion recognition
+- 📈 Led **$15K+ sponsorship** initiatives as Budget & Funding Analyst at Data Science at USF
 
 ## 🛠️ Tech Stack
 
-[![My Skills](https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,jupyter,git,docker,aws,gcp,mongodb,postgres,r,javascript,java,matlab)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn,r,javascript,java,c,matlab,mysql,postgres,aws,tableau)](https://skillicons.dev)
 
 **Specializations:**
-- **Machine Learning:** Transformers, NLP, Computer Vision, Deep Learning
-- **Frameworks:** HuggingFace, PyTorch, TensorFlow, Scikit-learn
-- **Data Analysis:** Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- **Tools:** Jupyter, Google Colab, Tableau, Git, Docker
+- **AI/ML:** TensorFlow, PyTorch, Scikit-learn, Keras, NLTK, OpenCV
+- **Data Processing:** NumPy, Pandas, Apache Spark, Hadoop, Matplotlib, Seaborn
+- **Databases & Cloud:** MySQL, PostgreSQL, Oracle, AWS, Snowflake, ServiceNow
+- **Visualization:** Tableau, Power BI, Excel
 
 ## 📊 Featured Projects
 
-### 🤖 [NLP Transformer Pipeline](link-to-repo)
-- Implemented sentiment analysis, NER, POS tagging using DistilBERT
-- Built question-answering systems with HuggingFace transformers
-- **Tech:** Python, Transformers, PyTorch, HuggingFace
+### 🤖 [AI-Powered Retail Forecasting System](link-to-repo)
+- Processed 500GB+ historical sales data with ML forecasting models
+- Built analytics dashboard with 20+ KPIs, reducing manual analysis time by 40%
+- **Tech:** Apache Spark, Hadoop, Tableau, MySQL
 
-### 📈 [Catastrophic Forgetting Research](link-to-repo)  
-- Academic research on mitigation strategies for catastrophic forgetting
-- Implemented influence function analysis with LoRA optimizations
-- **Tech:** PyTorch, Research Methodologies, Google Colab
+### 🛡️ [Production-Ready Spam Detection Engine](link-to-repo)  
+- Engineered NLP classification system achieving 95% precision on 10,000+ samples
+- Deployed scalable real-time system supporting 1000+ concurrent operations
+- **Tech:** Scikit-learn, NLTK, Python, NLP
 
-## 🏆 Achievements & Experience
+### 👁️ [Computer Vision Emotion & Crowd Analytics](link-to-repo)
+- Built CNN-based system achieving 90% accuracy in real-time video processing
+- Optimized inference pipeline for 30+ FPS performance
+- **Tech:** TensorFlow, OpenCV, Computer Vision, CNN
 
-- 📚 **DataCamp Coursework:** Completed advanced ML and NLP modules
-- 🎓 **Academic Projects:** Research presentations and paper analysis
-- 💼 **Applied for TA Positions:** Demonstrating teaching capabilities
-- 🏋️ **Fitness Tracking:** Detailed nutrition and workout optimization
+## 🏆 Professional Experience
+
+- 💼 **AI Engineer** at PromptOps AI Platform (Current)
+- 📊 **Graduate Assistant - Data Analyst** at Cyber Florida (May 2025 - Aug 2025)
+- 🔍 **Data Analyst** at Accenture (Oct 2021 - Aug 2024)
+- 🌐 **Project Intern** at Huawei Technologies (Feb 2019 - Aug 2019)
+
+## 🎓 Education & Certifications
+
+- **MS in AI & Business Analytics** - University of South Florida (2024-2026)
+- **BE in Electronics & Communication** - M S Ramaiah Institute of Technology (2015-2020)
+- **SnowPro Core Associate** - Snowflake (2025)
 
 ## 📬 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](your-linkedin)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://your-username.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vrushabh-mudda-6940131b6/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vmudda@usf.edu)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://vrushabhmudda.github.io/portfolio-vmudda)
 
 ---
-⚡ **Fun fact:** I can calculate macros as precisely as I debug neural networks! 🍗📊
-
+⚡ **Fun fact:** I've processed 500GB+ of data and achieved 99.9% uptime in production ML systems! 🚀📊
