@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vrushabh Mudda | AI/ML Engineer & Data Scientist</title>
+    <title>Vrushabh Mudda | Data Engineer & AI Systems Builder</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
@@ -27,6 +27,12 @@
         </div>
     </nav>
 
+    <!-- Availability Banner -->
+    <div class="availability-banner">
+        <i class="fas fa-circle pulse-dot"></i>
+        &nbsp; Open to <strong>Data Engineer · AI/ML Engineer · Data Scientist</strong> roles &mdash; Available May 2026 &nbsp;|&nbsp; Tampa, FL &nbsp;|&nbsp; Open to Remote &amp; Relocation
+    </div>
+
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
@@ -34,9 +40,9 @@
                 <h1 class="hero-title">
                     Hi, I'm <span class="gradient-text">Vrushabh Mudda</span>
                 </h1>
-                <p class="hero-subtitle">AI/ML Engineer & Data Scientist</p>
+                <p class="hero-subtitle">Data Engineer &nbsp;|&nbsp; AI Systems Builder &nbsp;|&nbsp; Healthcare AI Specialist</p>
                 <p class="hero-description">
-                    Building production-scale AI systems with 3+ years deploying solutions in healthcare, computer vision, and enterprise automation. Specialized in multi-agent systems, RAG pipelines, and deep learning.
+                    Building production-scale data pipelines and AI systems with 3+ years of industry experience across healthcare, enterprise automation, and government sectors. Specialized in ETL pipelines, multi-agent systems, RAG pipelines, and cloud-native data infrastructure.
                 </p>
                 <div class="hero-buttons">
                     <a href="#projects" class="btn primary">
@@ -50,9 +56,9 @@
             <div class="hero-visual">
                 <div class="floating-cards">
                     <div class="floating-card">
-                        <i class="fas fa-brain"></i>
-                        <h4>0.07560 pAUC</h4>
-                        <p>ISIC 2024 Kaggle Challenge</p>
+                        <i class="fas fa-heartbeat"></i>
+                        <h4>93 ICU Patients</h4>
+                        <p>Real-time clinical AI pipeline</p>
                     </div>
                     <div class="floating-card">
                         <i class="fas fa-database"></i>
@@ -60,9 +66,9 @@
                         <p>Daily pipeline processing</p>
                     </div>
                     <div class="floating-card">
-                        <i class="fas fa-chart-line"></i>
-                        <h4>90%+ Accuracy</h4>
-                        <p>Medical RAG system</p>
+                        <i class="fas fa-brain"></i>
+                        <h4>0.07560 pAUC</h4>
+                        <p>ISIC 2024 Kaggle Challenge</p>
                     </div>
                 </div>
             </div>
@@ -74,29 +80,33 @@
         <div class="container">
             <h2 class="section-title">About Me</h2>
             <p class="about-intro">
-                I'm a graduate student pursuing <strong>MS in AI & Business Analytics at University of South Florida</strong>, with 3+ years developing and deploying production ML systems at Fortune 500 companies. Currently working as <strong>AI Engineer at PromptOps AI Platform</strong> while advancing research in healthcare AI applications.
+                I'm a graduate student pursuing <strong>MS in AI &amp; Business Analytics at the University of South Florida</strong>, with 3+ years developing and deploying production data pipelines and ML systems at Fortune 500 companies and government agencies. My work spans healthcare AI, enterprise data engineering, and multi-agent system design.
             </p>
             <div class="about-highlights">
                 <div class="highlight">
                     <i class="fas fa-graduation-cap"></i>
                     <div>
                         <h4>Education</h4>
-                        <p>MS in AI & Business Analytics @ USF (2024-2026)</p>
+                        <p>MS in AI &amp; Business Analytics @ USF (2024&ndash;2026)<br>
+                        B.E. in Electronics &amp; Communication @ MSRIT, India</p>
                     </div>
                 </div>
                 <div class="highlight">
                     <i class="fas fa-briefcase"></i>
                     <div>
                         <h4>Experience</h4>
-                        <p>AI Engineer @ PromptOps AI Platform (Current)<br>
-                        Former Data Analyst @ Accenture (3 years)</p>
+                        <p>Application Development Analyst @ Accenture (3 years)<br>
+                        Research Assistant @ Cyber Florida (2025)<br>
+                        AI Engineer @ PromptOps AI Platform (Aug&ndash;Dec 2025)</p>
                     </div>
                 </div>
                 <div class="highlight">
                     <i class="fas fa-certificate"></i>
                     <div>
                         <h4>Certifications</h4>
-                        <p>SnowPro Core Associate (2025)<br>AWS ML Specialty (In Progress)</p>
+                        <p>SnowPro Core Associate (2025)<br>
+                        AWS Data Engineer Associate (In Progress)<br>
+                        AWS ML Specialty (In Progress)</p>
                     </div>
                 </div>
             </div>
@@ -108,8 +118,35 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                
-                <!-- Project 1: VoiceRAG Medical Interpreter -->
+
+                <!-- Project 1: SilentSurge -->
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-heartbeat project-placeholder"></i>
+                        <div class="project-overlay">
+                            <a href="https://github.com/vrushabhmudda" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <span class="project-badge">Latest · Mar 2026</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>SilentSurge &ndash; Autonomous Multi-Agent ICU Sepsis Detection</h3>
+                        <p>Production clinical AI system deployed on Google Cloud Run, processing real MIMIC-III data across 93 ICU patients simultaneously with zero race conditions. Eliminated a critical clinical blind spot — beta-blocker-masked vitals missed by standard SIRS/qSOFA scoring — via a LoopAgent self-correction pipeline. Human-in-the-loop physician approval gate before every escalation decision.</p>
+                        <div class="project-tech">
+                            <span>Google ADK</span>
+                            <span>Gemini 2.5 Flash</span>
+                            <span>LLaMA 3.3 70B</span>
+                            <span>Groq</span>
+                            <span>PostgreSQL</span>
+                            <span>Streamlit</span>
+                            <span>Docker</span>
+                            <span>Cloud Run</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: VoiceRAG Medical Interpreter -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-microphone-alt project-placeholder"></i>
@@ -118,10 +155,11 @@
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
+                        <span class="project-badge">Active Development</span>
                     </div>
                     <div class="project-content">
                         <h3>VoiceRAG Medical Interpreter</h3>
-                        <p>Production-ready multi-agent RAG system for Hindi-English medical translation with 90%+ contextual accuracy. Building voice-enabled platform with HIPAA-compliant privacy framework (Target completion: March 2026).</p>
+                        <p>Production-ready multi-agent RAG system for Hindi-English medical translation with 90%+ contextual accuracy and HIPAA-compliant PII masking (98% recall). Phase 1 complete — currently building voice-to-voice integration via Vapi.ai + Whisper STT with target &lt;500ms latency.</p>
                         <div class="project-tech">
                             <span>GPT-4o</span>
                             <span>Pinecone</span>
@@ -129,11 +167,12 @@
                             <span>Whisper</span>
                             <span>FastAPI</span>
                             <span>Streamlit</span>
+                            <span>SQLite</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Melanoma Detection -->
+                <!-- Project 3: Melanoma Detection -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-microscope project-placeholder"></i>
@@ -144,20 +183,20 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Melanoma Detection (ISIC 2024)</h3>
-                        <p>CNN-based skin cancer classification achieving 0.07560 pAUC on Kaggle Challenge. Processed 401,059 dermoscopic images with InceptionV3, handling extreme 1000:1 class imbalance. Grad-CAM validation confirmed clinical alignment.</p>
+                        <h3>Melanoma Detection &ndash; ISIC 2024 Kaggle</h3>
+                        <p>CNN-based skin cancer classification achieving 0.07560 pAUC on Kaggle public leaderboard — 3&times; above baseline. Processed 401,059 dermoscopic images with InceptionV3, handling extreme 1000:1 class imbalance. Grad-CAM validation confirmed clinical alignment with ABCDE melanoma criteria.</p>
                         <div class="project-tech">
                             <span>TensorFlow</span>
                             <span>InceptionV3</span>
                             <span>ResNet50</span>
+                            <span>EfficientNetV2</span>
                             <span>Transfer Learning</span>
-                            <span>Keras</span>
-                            <span>Computer Vision</span>
+                            <span>Grad-CAM</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3: Critical Infrastructure Analytics -->
+                <!-- Project 4: Critical Infrastructure Analytics -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-shield-alt project-placeholder"></i>
@@ -168,20 +207,47 @@
                         </div>
                     </div>
                     <div class="project-content">
-                        <h3>Critical Infrastructure Analytics</h3>
-                        <p>Built comprehensive analytics platform processing data from 16 critical infrastructure sectors across Florida. Improved data accuracy from 85% to 95% through automated validation. Identified 500+ critical assets supporting $5M+ state investment.</p>
+                        <h3>Critical Infrastructure Analytics Platform</h3>
+                        <p>Comprehensive analytics platform processing data from 16 critical infrastructure sectors across Florida. Improved data accuracy from 85% to 95%, identified 500+ high-risk assets, and supported a $5M+ state investment through data-driven business case. Deployed on AWS EC2 with 99.5% uptime.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>SQL</span>
-                            <span>Tableau</span>
                             <span>PostgreSQL</span>
-                            <span>ETL Pipelines</span>
-                            <span>Data Analytics</span>
+                            <span>Tableau</span>
+                            <span>BeautifulSoup</span>
+                            <span>Selenium</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 4: Enterprise Data Pipelines -->
+                <!-- Project 5: AI Prompt Management Platform -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-terminal project-placeholder"></i>
+                        <div class="project-overlay">
+                            <a href="https://github.com/vrushabhmudda" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI-Powered Prompt Management Platform</h3>
+                        <p>Production microservices platform with sub-200ms p95 response times under multi-user load. Reduced database query load by 58% via Redis caching layer over PostgreSQL. Delivered real-time collaborative editing via React + WebSocket frontend, deployed on Kubernetes with AWS integration.</p>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>React.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Enterprise Data Pipelines -->
                 <div class="project-card">
                     <div class="project-image">
                         <i class="fas fa-database project-placeholder"></i>
@@ -193,62 +259,15 @@
                     </div>
                     <div class="project-content">
                         <h3>Enterprise Data Pipelines @ Accenture</h3>
-                        <p>Developed SQL-based data pipelines processing 100M+ daily records from ServiceNow. Built Python ETL framework reducing processing time by 45%. Optimized queries improving performance by 40% while supporting 200+ analytics consumers.</p>
+                        <p>SQL-based ETL pipelines processing 100M+ daily records from ServiceNow. Python ETL framework cut processing time by 45% (8hrs &rarr; 4.4hrs). Compressed data delivery SLA from 24hrs to 2hrs. Designed star-schema dimensional models supporting 200+ analytics consumers across 4 business units.</p>
                         <div class="project-tech">
                             <span>Python</span>
                             <span>SQL</span>
-                            <span>ServiceNow</span>
-                            <span>Apache Spark</span>
-                            <span>ETL</span>
-                            <span>Data Engineering</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 5: ML Incident Management -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-robot project-placeholder"></i>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-lock"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>ML-Driven Incident Automation</h3>
-                        <p>Engineered intelligent automation system using ML-based ticket classification at Accenture. Reduced mean resolution time by 20% across 500+ daily tickets. Built predictive maintenance models preventing $500K+ in equipment failures.</p>
-                        <div class="project-tech">
-                            <span>Scikit-learn</span>
-                            <span>Python</span>
-                            <span>Pandas</span>
-                            <span>Machine Learning</span>
-                            <span>Classification</span>
-                            <span>ServiceNow API</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Project 6: Retail Forecasting System -->
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-chart-line project-placeholder"></i>
-                        <div class="project-overlay">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-external-link-alt"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="project-content">
-                        <h3>AI-Powered Retail Forecasting</h3>
-                        <p>Built end-to-end ML forecasting system processing 500GB+ historical sales data. Designed scalable ETL pipeline with Spark/Hadoop. Created interactive dashboard with 20+ KPIs reducing manual analysis time by 40%.</p>
-                        <div class="project-tech">
-                            <span>Apache Spark</span>
-                            <span>Hadoop</span>
-                            <span>Python</span>
-                            <span>Tableau</span>
-                            <span>MySQL</span>
-                            <span>Forecasting</span>
+                            <span>PySpark</span>
+                            <span>Apache Airflow</span>
+                            <span>dbt</span>
+                            <span>Snowflake</span>
+                            <span>AWS</span>
                         </div>
                     </div>
                 </div>
@@ -262,172 +281,57 @@
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
-                
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> AI/ML Frameworks</h3>
-                    <div class="skill-item">
-                        <span>TensorFlow & PyTorch</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="95%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Scikit-learn & XGBoost</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>OpenCV & Computer Vision</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>NLP (spaCy, NLTK, Hugging Face)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
-                    <div class="skill-item">
-                        <span>Python</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="95%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>SQL (MySQL, PostgreSQL)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>R & Statistical Analysis</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="80%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Java & JavaScript</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="75%"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3><i class="fas fa-cloud"></i> Cloud & MLOps</h3>
-                    <div class="skill-item">
-                        <span>AWS (SageMaker, EC2, S3, Lambda)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Docker & Kubernetes</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="80%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Snowflake & Data Warehousing</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Apache Airflow & CI/CD</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="80%"></div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="skill-category">
                     <h3><i class="fas fa-database"></i> Data Engineering</h3>
-                    <div class="skill-item">
-                        <span>Apache Spark & Hadoop</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>ETL Pipelines & Data Modeling</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Vector Databases (Pinecone)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Pandas & NumPy</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="95%"></div>
-                        </div>
+                    <div class="skill-tags">
+                        <span>Python</span><span>PySpark</span><span>SQL</span><span>ETL Pipelines</span>
+                        <span>Apache Airflow</span><span>dbt</span><span>Apache Spark</span><span>Kafka</span>
+                        <span>Hadoop</span><span>Parquet</span><span>JSON</span><span>AVRO</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
-                    <h3><i class="fas fa-chart-bar"></i> Visualization & BI</h3>
-                    <div class="skill-item">
-                        <span>Tableau & Power BI</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
+                    <h3><i class="fas fa-cloud"></i> Cloud & Platforms</h3>
+                    <div class="skill-tags">
+                        <span>AWS (S3, Redshift, Glue, Lambda)</span><span>Google Cloud Run</span>
+                        <span>BigQuery</span><span>Azure Synapse</span><span>Snowflake</span>
+                        <span>Docker</span><span>Kubernetes</span><span>CI/CD</span>
                     </div>
-                    <div class="skill-item">
-                        <span>Matplotlib & Seaborn</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Streamlit & Dashboarding</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Excel (Advanced)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> AI / ML</h3>
+                    <div class="skill-tags">
+                        <span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>XGBoost</span>
+                        <span>LangChain</span><span>HuggingFace</span><span>spaCy</span><span>OpenCV</span>
+                        <span>Google ADK</span><span>Gemini</span><span>GPT-4</span><span>RAG Pipelines</span>
                     </div>
                 </div>
 
                 <div class="skill-category">
                     <h3><i class="fas fa-robot"></i> AI Specializations</h3>
-                    <div class="skill-item">
-                        <span>Computer Vision (CNN, Transfer Learning)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
+                    <div class="skill-tags">
+                        <span>Multi-Agent Systems</span><span>ReAct Framework</span><span>RAG</span>
+                        <span>Computer Vision (CNN)</span><span>Transfer Learning</span>
+                        <span>NLP</span><span>HIPAA-compliant AI</span><span>Vector Databases</span>
                     </div>
-                    <div class="skill-item">
-                        <span>NLP & RAG Systems</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="90%"></div>
-                        </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Governance & Quality</h3>
+                    <div class="skill-tags">
+                        <span>HIPAA</span><span>GDPR</span><span>CCPA</span><span>SOC 2</span>
+                        <span>Data Lineage</span><span>Data Profiling</span><span>PII Masking</span>
+                        <span>Great Expectations</span><span>Audit Logging</span>
                     </div>
-                    <div class="skill-item">
-                        <span>Multi-Agent AI (LangChain)</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="85%"></div>
-                        </div>
-                    </div>
-                    <div class="skill-item">
-                        <span>Time Series & Forecasting</span>
-                        <div class="skill-bar">
-                            <div class="skill-progress" data-width="80%"></div>
-                        </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Visualization & BI</h3>
+                    <div class="skill-tags">
+                        <span>Tableau</span><span>Power BI</span><span>Streamlit</span>
+                        <span>Matplotlib</span><span>Seaborn</span><span>Plotly</span><span>Excel (Advanced)</span>
                     </div>
                 </div>
 
@@ -443,14 +347,14 @@
                 <div class="contact-info">
                     <h3>Let's Connect</h3>
                     <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-                        Open to Machine Learning Engineer, AI Engineer, Data Scientist, and Data Engineer roles starting May 2026. Available for relocation.
+                        Open to Data Engineer, AI/ML Engineer, and Data Scientist roles starting May 2026. Available for relocation.
                     </p>
                     <div class="contact-methods">
-                        <a href="mailto:vmudda@usf.edu" class="contact-method">
+                        <a href="mailto:vrushabhmudda22@gmail.com" class="contact-method">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <strong>Email</strong>
-                                <p>vmudda@usf.edu</p>
+                                <p>vrushabhmudda22@gmail.com</p>
                             </div>
                         </a>
                         <a href="https://linkedin.com/in/vrushabh-mudda-6940131b6" target="_blank" class="contact-method">
@@ -498,7 +402,7 @@
     <footer style="background: var(--surface-dark); padding: 2rem 0; text-align: center; border-top: 1px solid rgba(34, 211, 238, 0.2);">
         <div class="container">
             <p style="color: var(--text-secondary); margin-bottom: 1rem;">
-                © 2026 Vrushabh Mudda. Built with passion for AI/ML.
+                &copy; 2026 Vrushabh Mudda. Built with passion for Data Engineering &amp; AI.
             </p>
             <div style="display: flex; gap: 1.5rem; justify-content: center; font-size: 1.5rem;">
                 <a href="https://github.com/vrushabhmudda" target="_blank" style="color: var(--primary); transition: all 0.3s;">
@@ -507,14 +411,75 @@
                 <a href="https://linkedin.com/in/vrushabh-mudda-6940131b6" target="_blank" style="color: var(--primary); transition: all 0.3s;">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="mailto:vmudda@usf.edu" style="color: var(--primary); transition: all 0.3s;">
+                <a href="mailto:vrushabhmudda22@gmail.com" style="color: var(--primary); transition: all 0.3s;">
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
+            <p style="color: var(--text-secondary); margin-top: 1rem; font-size: 0.85rem;">Last Updated: April 2026</p>
         </div>
     </footer>
+
+    <style>
+        .availability-banner {
+            background: linear-gradient(90deg, rgba(34,211,238,0.12), rgba(99,102,241,0.12));
+            border-bottom: 1px solid rgba(34,211,238,0.25);
+            text-align: center;
+            padding: 0.6rem 1rem;
+            font-size: 0.88rem;
+            color: var(--text-secondary, #94a3b8);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .availability-banner strong { color: var(--primary, #22d3ee); }
+        .pulse-dot {
+            color: #22c55e;
+            font-size: 0.6rem;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        .project-badge {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            background: rgba(34,211,238,0.2);
+            color: #22d3ee;
+            border: 1px solid rgba(34,211,238,0.4);
+            border-radius: 999px;
+            padding: 0.2rem 0.65rem;
+            font-size: 0.72rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+        }
+        .project-card.featured {
+            border: 1px solid rgba(34,211,238,0.35);
+            box-shadow: 0 0 20px rgba(34,211,238,0.08);
+        }
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        .skill-tags span {
+            background: rgba(99,102,241,0.15);
+            border: 1px solid rgba(99,102,241,0.3);
+            color: var(--text-secondary, #94a3b8);
+            padding: 0.3rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.82rem;
+            transition: all 0.2s;
+        }
+        .skill-tags span:hover {
+            background: rgba(34,211,238,0.15);
+            border-color: rgba(34,211,238,0.4);
+            color: #22d3ee;
+        }
+    </style>
 
     <script src="script.js"></script>
 </body>
 </html>
-
