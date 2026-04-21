@@ -1,5 +1,3 @@
-// Enhanced Portfolio JavaScript with modern interactions
-
 // Loading Screen
 window.addEventListener('load', () => {
     const loading = document.getElementById('loading');
@@ -21,13 +19,13 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Smooth scrolling for navigation links
+// Smooth scrolling — offset accounts for navbar + availability banner
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const offsetTop = target.offsetTop - 80;
+            const offsetTop = target.offsetTop - 120;
             window.scrollTo({
                 top: offsetTop,
                 behavior: 'smooth'
@@ -36,44 +34,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Skill bars animation on scroll
-const observeSkills = () => {
-    const skillBars = document.querySelectorAll('.skill-progress');
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const width = entry.target.getAttribute('data-width');
-                entry.target.style.width = width;
-                observer.unobserve(entry.target);
-            }
-        });
-    }, { threshold: 0.1 });
-
-    skillBars.forEach(bar => {
-        observer.observe(bar);
-    });
-};
-
-// Initialize skill animation
-observeSkills();
-
-// Enhanced form handling
+// Contact form handler
 document.getElementById('contactForm').addEventListener('submit', function(e) {
     e.preventDefault();
     
     const button = this.querySelector('.btn');
     const originalText = button.innerHTML;
     
-    // Animate button
     button.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
     button.disabled = true;
     
-    // Simulate form submission
     setTimeout(() => {
         button.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
         button.style.background = 'linear-gradient(135deg, #48bb78, #38a169)';
-        
-        // Reset form
         this.reset();
         
         setTimeout(() => {
@@ -84,18 +57,17 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     }, 2000);
 });
 
-// Add hover effects to project cards
+// Project card hover effects
 document.querySelectorAll('.project-card').forEach(card => {
     card.addEventListener('mouseenter', function() {
         this.style.transform = 'translateY(-15px) rotateX(2deg)';
     });
-    
     card.addEventListener('mouseleave', function() {
         this.style.transform = 'translateY(0) rotateX(0)';
     });
 });
 
-// Parallax effect for hero section
+// Hero parallax
 window.addEventListener('scroll', () => {
     const scrolled = window.pageYOffset;
     const rate = scrolled * -0.5;
@@ -105,23 +77,8 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Add typing effect to hero title
-const typeWriter = (element, text, delay = 100) => {
-    let i = 0;
-    element.innerHTML = '';
-    const timer = setInterval(() => {
-        if (i < text.length) {
-            element.innerHTML += text.charAt(i);
-            i++;
-        } else {
-            clearInterval(timer);
-        }
-    }, delay);
-};
-
-// Initialize animations when page loads
+// Entrance animations on scroll
 document.addEventListener('DOMContentLoaded', () => {
-    // Add entrance animations
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -136,7 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    // Observe elements for animation
     document.querySelectorAll('.project-card, .skill-category').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
@@ -145,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Add particle effect to hero background
+// Particle effect in hero background
 function createParticles() {
     const hero = document.querySelector('.hero');
     const particleCount = 50;
@@ -165,18 +121,4 @@ function createParticles() {
     }
 }
 
-// Initialize particles
 createParticles();
-
-// Add dynamic gradient background
-const updateGradient = () => {
-    const time = Date.now() * 0.001;
-    const color1 = `hsl(${230 + Math.sin(time) * 30}, 70%, 60%)`;
-    const color2 = `hsl(${280 + Math.cos(time) * 30}, 70%, 60%)`;
-    
-    document.documentElement.style.setProperty('--primary', 
-        `linear-gradient(135deg, ${color1} 0%, ${color2} 100%)`);
-};
-
-// Update gradient every 5 seconds
-setInterval(updateGradient, 5000);
